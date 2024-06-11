@@ -1,27 +1,41 @@
-# DemoFrontCloud
+# FRONTEND da API de Produtos
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7.
+Este projeto foi criado para iteragir com a API de Produtos, permitindo a visualização, criação, edição e exclusão de produtos.
 
-## Development server
+## Linguagens
+- TypeScript
+- JavaScript
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Gerenciador de Pacotes
+- npm
 
-## Code scaffolding
+## Framework
+- Angular
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Estrutura do Projeto
 
-## Build
+O projeto segue a estrutura padrão de um projeto Angular, com componentes, modelos e ambientes.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Componentes
 
-## Running unit tests
+Os componentes são a base da aplicação Angular. Eles controlam uma parte da tela chamada de view. Por exemplo, temos um componente de barra de navegação (`navbar.component.ts`).
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Modelos
 
-## Running end-to-end tests
+Os modelos são usados para representar os dados que a aplicação irá manipular. Por exemplo, temos um modelo de Produto (`produto.ts`).
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Ambientes
 
-## Further help
+Os arquivos de ambiente são usados para definir variáveis que são específicas para cada ambiente (desenvolvimento, produção, etc). Por exemplo, temos dois arquivos de ambiente (`environment.ts` e `environment.prod.ts`).
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Executando o Projeto
+
+Para executar o projeto, você precisa ter o Node.js e o Angular CLI instalados. Depois de instalados, você pode executar `npm install` para instalar as dependências do projeto e `ng serve` para iniciar o servidor de desenvolvimento.
+
+## Contribuindo
+
+Contribuições são bem-vindas. Por favor, faça um fork do projeto e crie um Pull Request com suas alterações.
+
+## Licença
+
+Este projeto é licenciado sob a licença MIT.
